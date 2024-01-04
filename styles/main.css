@@ -1,0 +1,159 @@
+/* SITE HEADER */
+.site-header {
+  background-color: #fff;
+}
+
+.sitenav-list {
+  list-style-type: none;
+}
+
+.sitenav-link {
+  text-decoration: none;
+  color: #000;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.orange-btn {
+  color: #fff;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  background-color: #ff7500;
+  text-decoration: none;
+}
+
+/* HERO */
+.hero {
+  background-color: #252420;
+}
+
+.hero-content {
+  width: 387px;
+  color: #fff;
+}
+
+.orange-line {
+  width: 80px;
+  height: 3px;
+  background-color: #ff7500;
+}
+
+.hero-heading {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: 0.5px;
+}
+
+.hero-text {
+  font-size: 16x;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.5px;
+}
+
+.hero-img {
+  width: 510px;
+  height: 510px;
+}
+
+/* FEATURES */
+
+.features {
+  background-color: #fff;
+  color: #000;
+}
+
+.features-heading {
+  font-size: 72px;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: 0.5px;
+}
+
+.features-item {
+  width: 340px;
+  list-style-type: none;
+}
+
+.features-icon-wrapper {
+  width: 100px;
+  height: 100px;
+  background-color: rgba(255, 117, 0, 0.2);
+}
+
+.features-title {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: 0.5px;
+}
+
+.features-text {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.5px;
+}
+
+/* AKSIYA */
+.aksiya {
+  width: 1100px;
+  background-color: #252420;
+}
+
+.aksiya-content {
+  width: 440px;
+  color: #fff;
+}
+
+.aksiya-heading {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: 0.5px;
+}
+
+.aksiya-text {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.5px;
+}
+
+.aksiya-highlight {
+  color: #ff7500;
+}
+
+.aksiya-img {
+  width: 440px;
+  height: 440px;
+  object-fit: cover;
+}
+
+/* SITE FOOTER */
+.site-footer ul {
+  list-style-type: none;
+}
+
+.footer-line {
+  width: 1100px;
+  height: 2px;
+  background-color: rgba(37, 36, 32, 0.5);
+}
+
+.footer-list {
+  width: 224px;
+}
+
+.footer-list a {
+  color: #252420;
+  font-size: 16px;
+  font-weight: 400;
+  text-decoration: none;
+}

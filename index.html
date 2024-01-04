@@ -4,43 +4,44 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>1-chi sayt</title>
+    <link rel="stylesheet" href="styles/main.css" />
   </head>
   <body>
     <!-- SITE HEADER -->
-    <header>
-      <div>
-        <a href="#"
-          ><img src="img/Akademnashr-logo.svg" alt="Akademnashr logo"
-        /></a>
-        <nav>
-          <ul>
-            <li><a href="#">Bosh sahifa </a></li>
-            <li><a href="#">Kitoblar</a></li>
-            <li><a href="#">Aksiyalar</a></li>
-            <li><a href="#">Kontaktlar</a></li>
-          </ul>
-        </nav>
+    <header class="site-header">
+      <a href="#"
+        ><img src="img/Akademnashr-logo.svg" alt="Akademnashr logo"
+      /></a>
+      <nav>
+        <ul class="sitenav-list">
+          <li><a class="sitenav-link" href="#">Bosh sahifa </a></li>
+          <li><a class="sitenav-link" href="#">Kitoblar</a></li>
+          <li><a class="sitenav-link" href="#">Aksiyalar</a></li>
+          <li><a class="sitenav-link" href="#">Kontaktlar</a></li>
+        </ul>
+      </nav>
 
-        <a href="#">Ro’yxatdan o’tish</a>
-      </div>
+      <a class="orange-btn" href="#">Ro’yxatdan o’tish</a>
     </header>
 
     <!-- MAIN -->
     <main>
       <!-- HERO -->
-      <section>
-        <div>
-          <h2>Pythonda dasturlash asoslari</h2>
-          <p>
+      <section class="hero">
+        <div class="hero-content">
+          <hr class="orange-line" />
+          <h2 class="hero-heading">Pythonda dasturlash asoslari</h2>
+          <p class="hero-text">
             Dasturlash asoslariga oid o‘zbek tilidagi ilk eng mukammal
             qo‘llanma. Kitobning har bir bo‘limi uchun maxsus video darslar
             yozilgan bo‘lib, ularga kitobda ko‘rsatilgan QR kod orqali o‘tish
             mumkin.
           </p>
 
-          <a href="#">Buyurtma berish</a>
+          <a class="orange-btn" href="#">Buyurtma berish</a>
         </div>
         <img
+          class="hero-img"
           src="img/python-book.jpg"
           alt="python book"
           width="510"
@@ -50,29 +51,37 @@
       </section>
 
       <!-- FEATURES -->
-      <section>
-        <h2>Nega aynan Akademnashr?</h2>
+      <section class="features">
+        <hr class="orange-line" />
+
+        <h2 class="features-heading">Nega aynan Akademnashr?</h2>
         <ul>
-          <li>
-            <img src="img/cursor-click.svg" alt="cursor logo" />
-            <h3>Oson buyurtma qilish</h3>
-            <p>
+          <li class="features-item">
+            <div class="features-icon-wrapper">
+              <img src="img/cursor-click.svg" alt="cursor logo" />
+            </div>
+            <h3 class="features-title">Oson buyurtma qilish</h3>
+            <p class="features-text">
               Akademnashr.uz saytidan o’zingizga yoqqan kitobni sodda usulda
               buyurtma qila olasiz.
             </p>
           </li>
-          <li>
-            <img src="img/sparkles.svg" alt="sparkles logo" />
-            <h3>Eng sara kitoblar</h3>
-            <p>
+          <li class="features-item">
+            <div class="features-icon-wrapper">
+              <img src="img/sparkles.svg" alt="sparkles logo" />
+            </div>
+            <h3 class="features-title">Eng sara kitoblar</h3>
+            <p class="features-text">
               Trenddagi eng ommabop, turli auditoriyalarga mo’ljallangan har xil
               janrdagi kitoblarni topa olasiz.
             </p>
           </li>
-          <li>
-            <img src="img/lightning-bolt-1.svg" alt="lightning bolt logo" />
-            <h3>Tez yetkazib berish</h3>
-            <p>
+          <li class="features-item">
+            <div class="features-icon-wrapper">
+              <img src="img/lightning-bolt-1.svg" alt="lightning bolt logo" />
+            </div>
+            <h3 class="features-title">Tez yetkazib berish</h3>
+            <p class="features-text">
               O’zbekistonning ixtiyoriy hududiga 3 ish kuni ichida, xalqaro
               buyurtmalarni 10 ish kuni ichida yetkazib beriladi.
             </p>
@@ -81,20 +90,23 @@
       </section>
 
       <!-- AKSIYA -->
-      <section>
-        <div>
-          <h2>Bolalar kitoblari uchun ajoyib aksiya!</h2>
-          <p>
+      <section class="aksiya">
+        <div class="aksiya-content">
+          <h2 class="aksiya-heading">Bolalar kitoblari uchun ajoyib aksiya!</h2>
+          <p class="aksiya-text">
             Ertaklar, she’rlar, sarguzasht asarlar, fikrlashni o’stirish uchun
             turli mashq qo’llanmalari va komikslar.
           </p>
-          <p>
-            Aksiyadagi eng katta to’plamda 50 ta kitobni 350 ming so’mga (aslida
-            383 ming so’m) sotib olishingiz mumkin.
+          <p class="aksiya-text">
+            Aksiyadagi eng katta to’plamda
+            <b class="aksiya-highlight">50 ta kitob</b>ni
+            <b class="aksiya-highlight">350 ming</b> so’mga (aslida 383 ming
+            so’m) sotib olishingiz mumkin.
           </p>
-          <a href="#">Buyurtma berish</a>
+          <a class="orange-btn" href="#">Buyurtma berish</a>
         </div>
         <img
+          class="aksiya-img"
           src="img/sale-img.jpg"
           alt="sale img"
           srcset="img/sale-img.jpg 1x, img/sale-img@2x.jpg 2x"
@@ -102,8 +114,8 @@
       </section>
     </main>
 
-    <!-- FOOTER -->
-    <footer>
+    <!--SITE FOOTER -->
+    <footer class="site-footer">
       <div>
         <a href="#"
           ><img src="img/Akademnashr-logo.svg" alt="Akademnashr logo"
@@ -127,37 +139,37 @@
         </ul>
       </div>
 
-      <hr />
+      <hr class="footer-line" />
 
       <div>
-        <ul>
-          <li><a href="">Bosh sahifa</a></li>
-          <li><a href="">Kitoblar</a></li>
-          <li><a href="">Aksiyalar</a></li>
-          <li><a href="">Yangiliklar</a></li>
-          <li><a href="">Kontaktlar</a></li>
+        <ul class="footer-list">
+          <li><a href="#">Bosh sahifa</a></li>
+          <li><a href="#">Kitoblar</a></li>
+          <li><a href="#">Aksiyalar</a></li>
+          <li><a href="#">Yangiliklar</a></li>
+          <li><a href="#">Kontaktlar</a></li>
         </ul>
 
-        <ul>
-          <li><a href="">Ilmiy nashrlar</a></li>
-          <li><a href="">Ilmiy-ommabop nashrlar</a></li>
-          <li><a href="">Ma’rifiy nashrlar</a></li>
-          <li><a href="">Lug’atlar</a></li>
-          <li><a href="">Adabiy-badiiy nashrlar</a></li>
-          <li><a href="">Abituriyentlar uchun</a></li>
-          <li><a href="">Bolalar uchun</a></li>
+        <ul class="footer-list">
+          <li><a href="#">Ilmiy nashrlar</a></li>
+          <li><a href="#">Ilmiy-ommabop nashrlar</a></li>
+          <li><a href="#">Ma’rifiy nashrlar</a></li>
+          <li><a href="#">Lug’atlar</a></li>
+          <li><a href="#">Adabiy-badiiy nashrlar</a></li>
+          <li><a href="#">Abituriyentlar uchun</a></li>
+          <li><a href="#">Bolalar uchun</a></li>
         </ul>
 
-        <ul>
-          <li><a href="">Ko’p so’raladigan savollar</a></li>
-          <li><a href="">Yetkazib berish haqida</a></li>
-          <li><a href="">To’lov usullari haqida</a></li>
+        <ul class="footer-list">
+          <li><a href="#">Ko’p so’raladigan savollar</a></li>
+          <li><a href="#">Yetkazib berish haqida</a></li>
+          <li><a href="#">To’lov usullari haqida</a></li>
         </ul>
 
-        <ul>
-          <li><a href="">Bo’sh ish o’rinlari</a></li>
-          <li><a href="">Biz bilan bog’lanish</a></li>
-          <li><a href="">Maxfiylik nizomi</a></li>
+        <ul class="footer-list">
+          <li><a href="#">Bo’sh ish o’rinlari</a></li>
+          <li><a href="#">Biz bilan bog’lanish</a></li>
+          <li><a href="#">Maxfiylik nizomi</a></li>
         </ul>
       </div>
     </footer>
