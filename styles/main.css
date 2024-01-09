@@ -1,3 +1,12 @@
+body {
+  font-family: "Roboto", "Arial", sans-serif;
+  color: #000;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.5px;
+}
+
 /* SITE HEADER */
 .site-header {
   background-color: #fff;
@@ -8,13 +17,11 @@
 }
 
 .sitenav-link {
-  text-decoration: none;
   color: #000;
   font-size: 13px;
-  font-style: normal;
   font-weight: 500;
-  line-height: normal;
   letter-spacing: 1px;
+  text-decoration: none;
   text-transform: uppercase;
 }
 
@@ -22,9 +29,8 @@
   color: #fff;
   font-size: 13px;
   font-weight: 700;
-  letter-spacing: 0.5px;
-  background-color: #ff7500;
   text-decoration: none;
+  background-color: #ff7500;
 }
 
 /* HERO */
@@ -44,17 +50,10 @@
 }
 
 .hero-heading {
+  font-family: "Roboto Condensed", "Arial", sans-serif;
   font-size: 40px;
   font-weight: 700;
   line-height: 1.2;
-  letter-spacing: 0.5px;
-}
-
-.hero-text {
-  font-size: 16x;
-  font-weight: 400;
-  line-height: 1.5;
-  letter-spacing: 0.5px;
 }
 
 .hero-img {
@@ -66,14 +65,13 @@
 
 .features {
   background-color: #fff;
-  color: #000;
 }
 
 .features-heading {
+  font-family: "Roboto Condensed", "Arial", sans-serif;
   font-size: 72px;
   font-weight: 700;
   line-height: 1.2;
-  letter-spacing: 0.5px;
 }
 
 .features-item {
@@ -88,17 +86,10 @@
 }
 
 .features-title {
+  font-family: "Roboto Condensed", "Arial", sans-serif;
   font-size: 24px;
   font-weight: 700;
   line-height: 1.2;
-  letter-spacing: 0.5px;
-}
-
-.features-text {
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 1.5;
-  letter-spacing: 0.5px;
 }
 
 /* AKSIYA */
@@ -113,17 +104,10 @@
 }
 
 .aksiya-heading {
+  font-family: "Roboto Condensed", "Arial", sans-serif;
   font-size: 40px;
   font-weight: 700;
   line-height: 1.2;
-  letter-spacing: 0.5px;
-}
-
-.aksiya-text {
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 1.5;
-  letter-spacing: 0.5px;
 }
 
 .aksiya-highlight {
@@ -152,8 +136,7 @@
 }
 
 .footer-list a {
+  line-height: normal;
   color: #252420;
-  font-size: 16px;
-  font-weight: 400;
   text-decoration: none;
 }
