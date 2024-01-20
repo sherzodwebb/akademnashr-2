@@ -26,10 +26,33 @@ body {
   opacity: 0.6;
 }
 
+.orange-btn {
+  display: inline-block;
+  color: #fff;
+  font-size: 13px;
+  font-weight: 700;
+  text-decoration: none;
+  padding: 12px 24px;
+  border-radius: 4px;
+  background-color: #ff7500;
+  transition: opacity 0.3s ease;
+}
+
+.orange-btn:hover {
+  opacity: 0.8;
+}
+
+.orange-btn:active {
+  opacity: 0.6;
+}
+
 /* SITE HEADER */
 .site-header {
   display: flex;
   align-items: center;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  border-top: 5px solid #ff7500;
   justify-content: space-between;
   background-color: #fff;
 }
@@ -41,6 +64,7 @@ body {
 
 .sitenav-list {
   display: flex;
+  padding: 0;
   list-style-type: none;
 }
 
@@ -62,27 +86,12 @@ body {
   opacity: 0.6;
 }
 
-.orange-btn {
-  color: #fff;
-  font-size: 13px;
-  font-weight: 700;
-  text-decoration: none;
-  background-color: #ff7500;
-  transition: opacity 0.3s ease;
-}
-
-.orange-btn:hover {
-  opacity: 0.8;
-}
-
-.orange-btn:active {
-  opacity: 0.6;
-}
-
 /* HERO */
 .hero {
   display: flex;
   align-items: center;
+  padding-top: 80px;
+  padding-bottom: 80px;
   justify-content: space-between;
   background-color: #252420;
 }
@@ -95,6 +104,7 @@ body {
 .orange-line {
   width: 80px;
   height: 3px;
+  border: 0;
   background-color: #ff7500;
 }
 
@@ -108,12 +118,15 @@ body {
 .hero-img {
   width: 510px;
   height: 510px;
+  border-radius: 8px;
 }
 
 /* FEATURES */
 
 .features {
   background-color: #fff;
+  padding-top: 210px;
+  padding-bottom: 210px;
 }
 
 .features-heading {
@@ -125,6 +138,7 @@ body {
 
 .features-list {
   display: flex;
+  padding: 0;
   justify-content: space-between;
   list-style-type: none;
 }
@@ -134,8 +148,12 @@ body {
 }
 
 .features-icon-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 100px;
   height: 100px;
+  border-radius: 50%;
   background-color: rgba(255, 117, 0, 0.2);
 }
 
@@ -175,9 +193,15 @@ body {
   width: 440px;
   height: 440px;
   object-fit: cover;
+  border-radius: 8px;
 }
 
 /* SITE FOOTER */
+
+.site-footer {
+  padding-top: 56px;
+  padding-bottom: 56px;
+}
 
 .site-footer-top {
   display: flex;
@@ -187,6 +211,7 @@ body {
 
 .site-footer-socials {
   display: flex;
+  padding: 0;
   list-style-type: none;
 }
 
@@ -208,6 +233,7 @@ body {
 .footer-line {
   width: 1100px;
   height: 2px;
+  border: 0;
   background-color: rgba(37, 36, 32, 0.5);
 }
 
@@ -219,6 +245,7 @@ body {
 
 .footer-list {
   width: 224px;
+  padding: 0;
   list-style-type: none;
 }
 
