@@ -13,6 +13,8 @@
     />
     <!-- STYLES -->
     <link rel="stylesheet" href="styles/main.css" />
+    <!-- NORMALIZE CSS -->
+    <link rel="stylesheet" href="styles/normalize.css" />
   </head>
   <body>
     <!-- SITE HEADER -->
@@ -27,10 +29,18 @@
       <div class="site-header-right">
         <nav>
           <ul class="sitenav-list">
-            <li><a class="sitenav-link" href="#">Bosh sahifa </a></li>
-            <li><a class="sitenav-link" href="#">Kitoblar</a></li>
-            <li><a class="sitenav-link" href="#">Aksiyalar</a></li>
-            <li><a class="sitenav-link" href="#">Kontaktlar</a></li>
+            <li class="sitenav-item">
+              <a class="sitenav-link" href="#">Bosh sahifa </a>
+            </li>
+            <li class="sitenav-item">
+              <a class="sitenav-link" href="#">Kitoblar</a>
+            </li>
+            <li class="sitenav-item">
+              <a class="sitenav-link" href="#">Aksiyalar</a>
+            </li>
+            <li class="sitenav-item">
+              <a class="sitenav-link" href="#">Kontaktlar</a>
+            </li>
           </ul>
         </nav>
         <a class="orange-btn" href="#">Ro’yxatdan o’tish</a>
@@ -65,7 +75,7 @@
 
       <!-- FEATURES -->
       <section class="features">
-        <hr class="orange-line" />
+        <hr class="orange-line features-line" />
 
         <h2 class="features-heading">Nega aynan Akademnashr?</h2>
         <ul class="features-list">
@@ -106,16 +116,18 @@
       <section class="promo">
         <div class="promo-content">
           <h2 class="promo-heading">Bolalar kitoblari uchun ajoyib aksiya!</h2>
-          <p class="promo-text">
-            Ertaklar, she’rlar, sarguzasht asarlar, fikrlashni o’stirish uchun
-            turli mashq qo’llanmalari va komikslar.
-          </p>
-          <p class="promo-text">
-            Aksiyadagi eng katta to’plamda
-            <b class="promo-highlight">50 ta kitob</b>ni
-            <b class="promo-highlight">350 ming</b> so’mga (aslida 383 ming
-            so’m) sotib olishingiz mumkin.
-          </p>
+          <div class="promo-info-wrapper">
+            <p class="promo-text">
+              Ertaklar, she’rlar, sarguzasht asarlar, fikrlashni o’stirish uchun
+              turli mashq qo’llanmalari va komikslar.
+            </p>
+            <p class="promo-text">
+              Aksiyadagi eng katta to’plamda
+              <b class="promo-highlight">50 ta kitob</b>ni
+              <b class="promo-highlight">350 ming</b> so’mga (aslida 383 ming
+              so’m) sotib olishingiz mumkin.
+            </p>
+          </div>
           <a class="orange-btn" href="#">Buyurtma berish</a>
         </div>
         <img
